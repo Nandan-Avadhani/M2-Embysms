@@ -1,4 +1,7 @@
 # central Heating system 
+# Block Diagram
+![Schematic-diagram-of-a-central-heating-system](https://user-images.githubusercontent.com/97897323/154856115-549df7c0-1c4a-47b2-8666-a3e7031be752.png)
+
 # Power Supply
 * External source of power supply that powers all buttons and microcontroller
 
