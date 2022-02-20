@@ -8,6 +8,10 @@
 
 # LED'S
 * used to communicate with the user to indicate whether the device is turned on/off
+* to indicate that the alarm is turned on
+
+# Alarm
+* to alert the user that the temperature has crossed the threshold limit
 
 # Microcontroller
 * performs the operations needed by the system
