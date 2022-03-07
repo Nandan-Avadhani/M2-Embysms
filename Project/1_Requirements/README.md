@@ -33,13 +33,13 @@
 * sub system : Keypad module
 
 # Low Level Requirements
-* switch to turn on/off the door lock security system.
-* power supply needed for the operation of device i.e. for microcontroller, keypad module,LCD,Actuator,etc
+* LLR 1.1 switch to turn on/off the door lock security system.
+* LLR 1.2 power supply needed for the operation of device i.e. for microcontroller, keypad module,LCD,Actuator,etc
 
 # High Level Requirements
-* write a program to store the correct password in arduino
-* when wthe user enters the password to check whether it matches with the password stored in arduino. if it is correct then show "Access Granted Welcome" and then rotate the servo motor to 180 degree to open the door and then give 10 seconds for the user to enter and after 10 second lock the door automatically
-* if the password entered by the user is incorrect then show "password incorrect go away" and buzzer beeps once any key is pressed
+* HLR 1.1  write a program to store the correct password in arduino
+* when wthe user enters the password to check whether it matches with the password stored in arduino. if it is correct then show " HLR 1.2 Access Granted Welcome" and then rotate the servo motor to 180 degree to open the door and then give 10 seconds for the user to enter and after 10 second lock the door automatically
+* HLR 1.3 if the password entered by the user is incorrect then show "password incorrect go away" and buzzer beeps once any key is pressed
 # SWOT Analysis 
 
 # Strengths
