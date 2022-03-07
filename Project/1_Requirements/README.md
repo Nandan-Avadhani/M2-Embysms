@@ -1,50 +1,51 @@
-# central Heating system 
+# Password based door lock security system
 # Power Supply
 * External source of power supply that powers all buttons and microcontroller
 
 # Buttons
-* Thermostat controls to adjust the temperature to a comfortable level 
-* button to turn on/off the device
+* keypad module to take the password from the user
+* button to turn on/off the arduino uno
 
-# LED'S
-* used to communicate with the user to indicate whether the device is turned on/off
-* to indicate that the alarm is turned on
 
-# Alarm
-* to alert the user that the temperature has crossed the threshold limit
+# Buzzer
+* the buzzer is used for indications to the user regarding the system.
 
-# Microcontroller
+
+# LCD
+* to display  the status of the system and to display the necessary messages
+
+# servo motor
+* to open the gate while rotating
+
+# Microcontroller [Arduino Uno]
 * performs the operations needed by the system
-* the microcontroller helps in converting the chemical energy into thermal energy and convert that energy to heat and then deliver it to numerous spaces in the building 
+* Arduino controls the complete processes like taking the password from the keypad module,comparing passwords,driving buzzers,rotating servo motor,and sending status to the LCD display.
 
-# Temperature sensors 
-* to determine the temperature inside the building and display it to the end user
-
-# Clock
-* needed for smooth performance of the microcontroller
-
-# Actuators
-* if the temperature of the room increases beyond a certain threshold limit in terms of temperature then the device performs according to the decision taken by the microcontroller in this case to turn off the heating system
+# Actuator
+* servo motor for opening the gate while rotating 
 
 # V-Model
 # concept of operation
-* cental heating system
+* Password based door lock security system.
 
 # Requirements
 * central system: a microcontroller
-* sub system : Temperature sensor LED'S
+* sub system : Keypad module
 
 # Low Level Requirements
-* switch to turn on/off the heating system
-* power supply needed for the operation of device i.e. for microcontroller, sensor,LED,Actuator,etc
+* switch to turn on/off the door lock security system.
+* power supply needed for the operation of device i.e. for microcontroller, keypad module,LCD,Actuator,etc
 
 # High Level Requirements
-* to convert the chemical energy to thermal energy and transfer that energy into heat,which then is delivered to the spaces inside the building
-* to increase the temperature of the room
-* to make decision whether to turn off the heater if the temperature of the room passes the threshold
+* write a program to store the correct password in arduino
+* when wthe user enters the password to check whether it matches with the password stored in arduino. if it is correct then show "Access Granted Welcome" and then rotate the servo motor to 180 degree to open the door and then give 10 seconds for the user to enter and after 10 second lock the door automatically
+* if the password entered by the user is incorrect then show "password incorrect go away" and buzzer beeps once any key is pressed
 
-# Test Case
+# Test Cases
 * when power is supplied to check whether the system is working or not(Y/N)
-* when power is suppplied to check whether the led is turning on or not(Y/N)
+* when power is suppplied to check whether the LCD is turning on or not(Y/N)
 * to check whether the microcontroller is receving the signal or not(Y/N).
-* to check whether the temperature sensor is working or not(Y/N)
+* to check whether the servo motor is rotating 180 degree to open the door(Y/N)
+* to check whether the buzzer is working or not(Y/N)
+* to check whether the keypad module is taking the password or not(Y/N)
+* to check whether the LCD is displaying the status of the system and displaying the messages or not(Y/N)
