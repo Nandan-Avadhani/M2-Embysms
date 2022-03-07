@@ -40,6 +40,7 @@
 * HLR 1.1  write a program to store the correct password in arduino
 * when wthe user enters the password to check whether it matches with the password stored in arduino. if it is correct then show " HLR 1.2 Access Granted Welcome" and then rotate the servo motor to 180 degree to open the door and then give 10 seconds for the user to enter and after 10 second lock the door automatically
 * HLR 1.3 if the password entered by the user is incorrect then show "password incorrect go away" and buzzer beeps once any key is pressed
+
 # SWOT Analysis 
 
 # Strengths
