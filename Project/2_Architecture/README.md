@@ -1,5 +1,5 @@
-# Flow Chart of Central Heating System
-![flow](https://user-images.githubusercontent.com/97897323/155837325-2524e7c5-52f9-4d46-a865-7389e20dfcd8.png)
+# Circuit diagram of password based security system based on arduino
+![circiuit diagram](https://user-images.githubusercontent.com/97897323/157044663-f767709c-6039-458a-bd3f-3f3148592185.jpg)
+# schematic diagram of password based security system based on arduino
+![schematic diagram](https://user-images.githubusercontent.com/97897323/157044955-8bdf6daf-9584-4695-bdae-82dd30d92995.png)
 
-# Block Diagram of central heating system
-![Block-Diagram-of-Temperature-Control-System-for-Smart-Home](https://user-images.githubusercontent.com/97897323/154857581-4f7dae04-08aa-4b82-8b6f-124f2c4bf05e.png)
