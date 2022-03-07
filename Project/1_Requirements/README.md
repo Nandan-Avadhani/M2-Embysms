@@ -1,4 +1,8 @@
 # Password based door lock security system
+
+# Abstract
+* as thefts are increasing day by day and security is becoming a major concern nowadays we are designing a password based security system which uses a digital code which opens the door only when the right password is entered making the user's place more secure.
+
 # Power Supply
 * External source of power supply that powers all buttons and microcontroller
 
