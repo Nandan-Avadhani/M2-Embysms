@@ -1,0 +1,2 @@
+# Implementation 
+* the coding is done in arduino IDE and the code is written for the desired password and is stored in the arduino microcontroller and when the user enters the password it is checked against the password stored in arduino and if the password matches then the door opens and the LCD displays" acess granted" or else if password is mismatched then the buzzer sounds and lcd displays message " wrong password"
