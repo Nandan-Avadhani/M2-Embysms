@@ -40,6 +40,46 @@
 * write a program to store the correct password in arduino
 * when wthe user enters the password to check whether it matches with the password stored in arduino. if it is correct then show "Access Granted Welcome" and then rotate the servo motor to 180 degree to open the door and then give 10 seconds for the user to enter and after 10 second lock the door automatically
 * if the password entered by the user is incorrect then show "password incorrect go away" and buzzer beeps once any key is pressed
+# SWOT Analysis 
+
+# Strengths
+* Easy to use application
+* removes the necessity of having a physical key to open the door
+* safer then having a typical lock key mechanism for the door
+* users do not need to worry about carrying or losing the keys to their doors
+
+# Weaknesses
+* problem if the password is forgotten
+* can cause inconveince  to the user if the door does not close/open in proper time
+* the door may not close or open if there is a issue in the system
+* the user must remember the password or store it elsewhere
+
+# Oppurtunities
+* we can replace the traditional lock and key mechanism in doors with this system if the system is made cheap and affordable
+* is very sclable and has a large market for such a product
+
+# Threats
+* can lead to theaft/robbery if the password is leaked 
+* the system might fail in case of loss of power supply 
+
+# 5W 1H
+# Who
+* can used by people around the world 
+
+# What
+* it is a password based door lock security system
+
+# When
+* can be used when it is necessary to lock the door and key is not available 
+
+# Where
+*  can be used in homes,banks,restuarants,malls etc
+
+# Why
+* can be used for enchancing the security of door lock system and to replace the lock and key mechanism
+
+# How
+* to design this system the programme is written in c and the microcontroller used controls the processes like taking the password from the keypaad module comparing passwords driving buzzers and driving the servo motor and sending the status to the LCD display.
 
 # Test Cases
 * when power is supplied to check whether the system is working or not(Y/N)
